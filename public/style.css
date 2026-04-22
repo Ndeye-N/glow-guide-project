@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6f0;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    width: 400px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+input, button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+button {
+    background-color: #ffb7b2;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.product-card {
+    border-left: 5px solid #ffb7b2;
+    background: #fffafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
